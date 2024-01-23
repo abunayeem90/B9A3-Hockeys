@@ -20,7 +20,7 @@
 <body class="Manrope">
     
     <header>
-        <div>
+        <div class=" ">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -55,8 +55,9 @@
                 </div>
               </div>
         </div>
-        <div>
-            <div class="carousel sm:w-80 mx-h-48 lg:w-full">
+        <!-- banner -->
+        <div class="container">
+            <div class="carousel w-80 ml-5 mx-h-48 lg:w-[1400px] mx-16">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="./Images/banner.png" class="h-96 w-full bg-[#D3D3D3.]" />
                   <div class="absolute sm: flex lg:flex justify-between transform -translate-y-1/2 left-5 gap-8 bottom-0">
@@ -87,9 +88,9 @@
                 </div>
                 
               </div>
-              <div>
-                <div class="card p-4 w-[560px] h-[180px] bg-neutral text-neutral-content transform -translate-y-3/3 left-80  -top-56  ">
-                    <div class="card-body items-center text-center ">
+              <div class="lg:card p-4  w-[560px] h-[180px]  bg-neutral text-neutral-content transform -translate-y-60 right-96 ">
+                <div class="flex">
+                    <div class=" items-center text-center ">
                       <h2 class="text-white font-extrabold text-2xl ">Meet all the heroes from the field</h2>
                       <p>Embark on an inspiring journey as you meet the unsung heroes from various fields in this captivating and enlightening experience.</p>
                       
@@ -100,7 +101,7 @@
     </header>
     <main>
         <!-- Professional Hockeys Club -->
-        <div >
+        <div class=" lg: container w-[93%]" >
             <div class=" container gride grid-rows-2 text-center justify-center items-center  w-full h-36">
                 
                 <h1 class="text-4xl text-[#131318] pt-7 mb-6 font-extrabold">Professional Hockeys Club</h1>
@@ -109,27 +110,27 @@
             <div class=" container pt-12 gap-8 grid grid-cols-1 lg:grid-cols-4 mt-16">
                 <!-- progress first -->
                 <div class="text-center justify-center items-center">  
-                    <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
+                    <div class="radial-progress text-primary text-red-500" style="--value:87;" role="progressbar"> <span class="text-black font-extrabold">87%</span></div>
                     <h4 class="text-xl font-semibold pt-6 pb-4">Prayer Facility</h4>
-                    <p>Designed with attention to cultural sensitivities, the Prayer Facility is equipped with amenities to support. </p>
+                    <p>Designed with attention to cultural sensitivities. </p>
                 </div>
                 <!-- progress two -->
                 <div class="text-center justify-center items-center">  
-                    <div class="radial-progress text-primary" style="--value:95;" role="progressbar">95%</div>
+                    <div class="radial-progress text-primary text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-black font-extrabold">95%</span></div>
                     <h4 class="text-xl font-semibold pt-6 pb-4">Experienced Coach</h4>
-                    <p>Our Experienced Coach is a beacon of inspiration, providing a supportive environment for those seeking to unlock their full capabilities. </p>
+                    <p>Our Experienced Coach is a beacon of inspiration. </p>
                 </div>
                 <!-- progress three -->
                 <div class="text-center justify-center items-center">  
-                    <div class="radial-progress text-primary " style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress text-primary text-[#FFB546] " style="--value:90;" role="progressbar"> <span class="text-black font-extrabold">90%</span></div>
                     <h4 class="text-xl font-semibold pt-6 pb-4">Senior Player</h4>
-                    <p> the Prayer Facility is equipped with amenities to support and enhance the prayer experience. </p>
+                    <p> the Prayer Facility is equipped with amenities to support.</p>
                 </div>
                 <!-- progress four -->
                 <div class="text-center justify-center items-center">  
-                    <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+                    <div class="radial-progress text-primary" style="--value:80;" role="progressbar"><span class="text-black font-extrabold">80%</span></div>
                     <h4 class="text-xl font-semibold pt-6 pb-4">Training Ground</h4>
-                    <p>Our Training Ground is more than just a physical space; it's a hub of innovation and expertise. Whether you're an athlete striving for peak performance. </p>
+                    <p>Our Training Ground is more than just a physical space.</p>
                 </div>
                 
             </div> 
@@ -192,10 +193,10 @@
                 <h1 class="pb-3"> Our New Products</h1>
                 <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="gap-5 grid grid-cols-1 lg:grid-cols-2">
+            <div class="lg:w-[1400px] m-auto gap-5 grid grid-cols-1 lg:grid-cols-2">
                 <!-- first card -->
-                <div class="flex flex-col text-center justify-center items-center gap-4 border-2 pt-6 pb-6 pl-6">
-                    <div class=""><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/5.png" alt=""></div>
+                <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
+                    <div class=" mb-4"><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/5.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
                             <div class="flex"> <img src="./Images/icon/star.png" alt=""> <h6>5.0</h6></div>
@@ -209,15 +210,15 @@
                         </div>
                         <div class="flex mt-5">
                             <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" gap-3">
-                                <img src="./Images/icon/shop.png" alt="">
-                                <p class="h-4">Delivery Fee : Free</p>
+                            <div class="flex gap-3">
+                                <img class="h-8" src="./Images/icon/shop.png" alt="">
+                                <p class="h-9">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- second card -->
-                <div class="flex flex-col text-center justify-center items-center gap-4 border-2 pt-6 pb-6 pl-6">
+                <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
                     <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/6.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
@@ -232,15 +233,15 @@
                         </div>
                         <div class="flex mt-5">
                             <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" gap-3">
-                                <img src="./Images/icon/shop.png" alt="">
-                                <p class="h-4">Delivery Fee : Free</p>
+                            <div class="flex gap-3">
+                                <img class="h-8" src="./Images/icon/shop.png" alt="">
+                                <p class=" h-9">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- third card -->
-                <div class="flex flex-col text-center justify-center items-center gap-4 border-2 pt-6 pb-6 pl-6">
+                <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
                     <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/7.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
@@ -255,15 +256,15 @@
                         </div>
                         <div class="flex mt-5">
                             <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" gap-3">
-                                <img src="./Images/icon/shop.png" alt="">
-                                <p class="h-4">Delivery Fee : Free</p>
+                            <div class=" flex gap-3">
+                                <img class="h-8" src="./Images/icon/shop.png" alt="">
+                                <p class="h-9">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- four card -->
-                <div class="flex flex-col text-center justify-center items-center gap-4 border-2 pt-6 pb-6 pl-6">
+                <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
                     <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/8.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
@@ -278,15 +279,15 @@
                         </div>
                         <div class="flex mt-5">
                             <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" gap-3">
-                                <img src="./Images/icon/shop.png" alt="">
-                                <p class="h-4">Delivery Fee : Free</p>
+                            <div class="flex gap-3">
+                                <img class="h-8" src="./Images/icon/shop.png" alt="">
+                                <p class="h-9">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- five card -->
-                <div class="flex flex-col text-center justify-center items-center gap-4 border-2 pt-6 pb-6 pl-6">
+                <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
                     <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/9.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
@@ -301,15 +302,15 @@
                         </div>
                         <div class="flex mt-5">
                             <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" gap-3">
-                                <img src="./Images/icon/shop.png" alt="">
-                                <p class="h-4">Delivery Fee : Free</p>
+                            <div class="flex gap-3">
+                                <img class="h-8" src="./Images/icon/shop.png" alt="">
+                                <p class="h-9">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- six card -->
-                <div class="flex flex-col text-center justify-center items-center gap-4 border-2 pt-6 pb-6 pl-6">
+                <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
                     <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/10.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
@@ -324,9 +325,9 @@
                         </div>
                         <div class="flex mt-5">
                             <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" gap-3">
-                                <img src="./Images/icon/shop.png" alt="">
-                                <p class="h-4">Delivery Fee : Free</p>
+                            <div class="flex gap-3">
+                                <img class="h-8" src="./Images/icon/shop.png" alt="">
+                                <p class="h-9">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
