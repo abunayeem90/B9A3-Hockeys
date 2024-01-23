@@ -56,7 +56,7 @@
               </div>
         </div>
         <!-- banner -->
-        <div class="container">
+        <div class="container relative">
             <div class="carousel w-80 ml-5 mx-h-48 lg:w-[1400px] mx-16">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="./Images/banner.png" class="h-96 w-full bg-[#D3D3D3.]" />
@@ -88,7 +88,7 @@
                 </div>
                 
               </div>
-              <div class="lg:card p-4  w-[560px] h-[180px]  bg-neutral text-neutral-content transform -translate-y-60 right-96 ">
+              <div class="absolute sm: lg:card p-4  w-[560px] h-[180px]  bg-neutral text-neutral-content transform -translate-y-60 right-40 rounded-xl ">
                 <div class="flex">
                     <div class=" items-center text-center ">
                       <h2 class="text-white font-extrabold text-2xl ">Meet all the heroes from the field</h2>
@@ -143,42 +143,47 @@
                 <h1 class="mt-20 mb-6 font-extrabold text-2xl">Program Sections</h1>
                 <p class="font-medium ">From grassroots initiatives aimed at introducing young talents to the fundamentals of the game to advanced training programs for seasoned players, <br> our Hockey Program Sections are a vibrant hub where passion meets expertise.</p>
             </div>
-             <div class="mt-28 grid grid-cols-1 lg:grid-cols-2">
+             <div class="mt-28 mx-4 gap-5 grid grid-cols-1 lg:grid-cols-2">
+
+              <!-- First program -->
         <div class="">
-            <div class="card  w-full h-full bg-base-100 shadow-xl">
-                <figure><img class="w-[750px]" src="./Images/hockeys.png" alt="Shoes" /></figure>
-                <div class="ml-10">
-                  <h2 class="card-title">Junior Program</h2>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
+            <div class="card  w-full h-full bg-base-100">
+                <figure><img class="lg:w-[750px] bg-[#131318b3]" src="./Images/hockeys.png" alt="Shoes" /></figure>
+                <div class="ml-14 -mt-80">
+                  <h2 class="card-title pb-4 lg:font-extrabold text-3xl text-[#FFF]">Junior Program</h2>
+                  <p class="text-[#FFF]">Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's overall efforts related to player development. </p>
+                  <div class="card-actions pt-4 justify-start">
+                    <button class="btn btn-primary font-bold text-xl border-none bg-[#FF4240] ">Register Now!</button>
                   </div>
                 </div>
               </div>
 
         </div>
+
+        <!-- Second Program -->
         <div class="">
-            <div class="card card-compact w-full bg-base-100 shadow-xl">
-                <figure><img class="w-[750px]" src="./Images/hockeys-players1.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                  <h2 class="card-title">Teenager Program</h2>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+            <div class="card card-compact sm:w-auto lg:w-full bg-base-100 shadow-xl">
+                <figure><img class=" lg:w-[750px]" src="./Images/hockeys-players1.png" alt="Shoes" /></figure>
+                <div class="card-body lg:ml-14 -mt-80">
+                  <h2 class="card-title font-normal lg:font-extrabold text-3xl text-[#FFF]">Teenager Program</h2>
+                  <p class="text-[#FFF]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                     enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
                   <div class="card-actions justify-start">
-                    <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
+                    <button class="btn btn-primary font-bold text-xl border-none bg-[#FF4240]">Register Now!</button>
                   </div>
                 </div>
               </div>
         </div>
-        <div class=" col-span-2">
+
+        <!-- third program -->
+        <div class="mt-40 col-span-2">
             <div class="card card-compact  bg-base-100 shadow-xl">
                 <figure><img class="w-[1500px]" src="./Images/hockeys-players2.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                  <h2 class="card-title">Professional Program</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
+                <div class=" lg:card-body ml-14 -mt-80">
+                  <h2 class="card-title lg:pb-2 font-extrabold text-3xl text-[#FFF]">Professional Program</h2>
+                  <p class="text-[#FFF]">If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions lg:pt-2 justify-start">
+                    <button class="btn btn-primary font-bold text-xl border-none bg-[#FF4240]">Register Now!</button>
                   </div>
                 </div>
               </div>
@@ -189,8 +194,8 @@
 
         <!-- Our New Products Section -->
         <section class="container">
-            <div class="mt-10 mb-6 text-center justify-center items-center">
-                <h1 class="pb-3"> Our New Products</h1>
+            <div class="mt-60 mb-6 text-center justify-center items-center">
+                <h1 class="pb-3 font-extrabold text-3xl"> Our New Products</h1>
                 <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="lg:w-[1400px] m-auto gap-5 grid grid-cols-1 lg:grid-cols-2">
@@ -208,9 +213,9 @@
                             <h1 class="mt-5 mb-5 font-extrabold text-xl">World Cup Flags Football</h1>
                             <p>The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. </p>
                         </div>
-                        <div class="flex mt-5">
-                            <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class="flex gap-3">
+                        <div class=" sm:flex mt-5">
+                            <h6 class="sm:text-xl -w-1 justify-between lg:text-[18px] text-red-500 mr-5">Price - $22.00</h6>
+                            <div class="flex mt-4 gap-3">
                                 <img class="h-8" src="./Images/icon/shop.png" alt="">
                                 <p class="h-9">Delivery Fee : Free</p>
                             </div>
@@ -219,7 +224,7 @@
                 </div>
                 <!-- second card -->
                 <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
-                    <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/6.png" alt=""></div>
+                    <div class="mb-4"><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/6.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
                             <div class="flex"> <img src="./Images/icon/star.png" alt=""> <h6>5.0</h6></div>
@@ -231,9 +236,9 @@
                             <h1 class="mt-5 mb-5 font-extrabold text-xl">World Cup Flags Football</h1>
                             <p>The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. </p>
                         </div>
-                        <div class="flex mt-5">
-                            <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class="flex gap-3">
+                        <div class="sm:flex mt-5">
+                            <h6 class="sm:text-xl -w-1 justify-between lg:text-[18px] text-red-500 mr-5">Price - $22.00</h6>
+                            <div class="flex mt-4 gap-3">
                                 <img class="h-8" src="./Images/icon/shop.png" alt="">
                                 <p class=" h-9">Delivery Fee : Free</p>
                             </div>
@@ -242,7 +247,7 @@
                 </div>
                 <!-- third card -->
                 <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
-                    <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/7.png" alt=""></div>
+                    <div class="mb-4"><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/7.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
                             <div class="flex"> <img src="./Images/icon/star.png" alt=""> <h6>5.0</h6></div>
@@ -254,9 +259,9 @@
                             <h1 class="mt-5 mb-5 font-extrabold text-xl">World Cup Flags Football</h1>
                             <p>The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. </p>
                         </div>
-                        <div class="flex mt-5">
-                            <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class=" flex gap-3">
+                        <div class="sm:flex mt-5">
+                            <h6 class="sm:text-xl -w-1 justify-between lg:text-[18px] text-red-500 mr-5">Price - $22.00</h6>
+                            <div class=" flex mt-4 gap-3">
                                 <img class="h-8" src="./Images/icon/shop.png" alt="">
                                 <p class="h-9">Delivery Fee : Free</p>
                             </div>
@@ -265,7 +270,7 @@
                 </div>
                 <!-- four card -->
                 <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
-                    <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/8.png" alt=""></div>
+                    <div class="mb-4"><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/8.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
                             <div class="flex"> <img src="./Images/icon/star.png" alt=""> <h6>5.0</h6></div>
@@ -277,9 +282,9 @@
                             <h1 class="mt-5 mb-5 font-extrabold text-xl">World Cup Flags Football</h1>
                             <p>The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. </p>
                         </div>
-                        <div class="flex mt-5">
-                            <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class="flex gap-3">
+                        <div class="sm:flex mt-5">
+                            <h6 class="sm:text-xl -w-1 justify-between lg:text-[18px] text-red-500 mr-5">Price - $22.00</h6>
+                            <div class="flex mt-4 gap-3">
                                 <img class="h-8" src="./Images/icon/shop.png" alt="">
                                 <p class="h-9">Delivery Fee : Free</p>
                             </div>
@@ -288,7 +293,7 @@
                 </div>
                 <!-- five card -->
                 <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
-                    <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/9.png" alt=""></div>
+                    <div class="mb-4"><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/9.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
                             <div class="flex"> <img src="./Images/icon/star.png" alt=""> <h6>5.0</h6></div>
@@ -300,9 +305,9 @@
                             <h1 class="mt-5 mb-5 font-extrabold text-xl">World Cup Flags Football</h1>
                             <p>The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. </p>
                         </div>
-                        <div class="flex mt-5">
-                            <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class="flex gap-3">
+                        <div class="sm:flex mt-5">
+                            <h6 class="sm:text-xl -w-1 justify-between lg:text-[18px] text-red-500 mr-5">Price - $22.00</h6>
+                            <div class="flex mt-4 gap-3">
                                 <img class="h-8" src="./Images/icon/shop.png" alt="">
                                 <p class="h-9">Delivery Fee : Free</p>
                             </div>
@@ -311,7 +316,7 @@
                 </div>
                 <!-- six card -->
                 <div class=" lg:flex gap-4 border-2 pt-6 pb-6 pl-6">
-                    <div><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/10.png" alt=""></div>
+                    <div class="mb-4"><img class="h-[200px] w-[220px] lightgray 50% / cover no-repeat" src="./Images/10.png" alt=""></div>
                     <div class="ml-6">
                         <div class="flex gap-6">
                             <div class="flex"> <img src="./Images/icon/star.png" alt=""> <h6>5.0</h6></div>
@@ -323,9 +328,9 @@
                             <h1 class="mt-5 mb-5 font-extrabold text-xl">World Cup Flags Football</h1>
                             <p>The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. </p>
                         </div>
-                        <div class="flex mt-5">
-                            <h6 class="text-[18px] text-red-500 mr-5">Price - $22.00</h6>
-                            <div class="flex gap-3">
+                        <div class="sm:flex mt-5">
+                            <h6 class="sm:text-xl -w-1 justify-between lg:text-[18px] text-red-500 mr-5">Price - $22.00</h6>
+                            <div class="flex mt-4 gap-3">
                                 <img class="h-8" src="./Images/icon/shop.png" alt="">
                                 <p class="h-9">Delivery Fee : Free</p>
                             </div>
@@ -403,23 +408,23 @@
             </div>
         </section>
         <!-- Get In Touch Section -->
-        <section class=" container mt-28">
+        <section class=" container relative mt-28">
             <div class="text-center justify-center items-center">
-                <h1 class="pt-8 pb-6">Get In Touch</h1>
+                <h1 class="pt-8 pb-6 font-extrabold text-2xl text-black">Get In Touch</h1>
                 <p>We'd love to welcome you to our London hockey club so if you're thinking of joining us, <br>please complete this form and pop along to a training session soon!</p>
             </div>
             <div>
                 <!-- contact info -->
-                <div class="flex-row lg:flex">
+                <div class="flex-row lg:flex mt-12">
 
-                    <div class="ml-3 px-12 pt-12 border-2">
-                        <div class="grid grid-cols-1 lg:grid-rows-3 mt-6  bg-[#BCED6D1A]">
+                    <div class="ml-16 px-12 py-10 border-2">
+                        <div class="grid grid-cols-1 lg:grid-rows-3 h-40 mt-6  bg-[#BCED6D1A]">
                             <img class="pt-8 pl-8 pb-3" src="./Images/call.png" alt="">
                             <p class="pl-8 pt-6 w-72">Phone Number : <br>(+62) 123-321-543</p>
                             
     
                         </div>
-                        <div class="grid grid-cols-1 lg:grid-rows-3 mt-6 bg-[#FDDD5F1A]">
+                        <div class="grid grid-cols-1 lg:grid-rows-3 h-40 mt-6 bg-[#FDDD5F1A]">
                             <img class="pt-8 pl-8" src="./Images/email.png" alt="">
                             <p class="pl-8 pt-6 w-72">Email <br>
                                 <a href="#" aria-placeholder="hockeys@support.com">hockeys@support.com</a>
@@ -427,7 +432,7 @@
                            
     
                         </div>
-                        <div class="grid grid-cols-1  pb-50 lg:grid-rows-3 mt-6 bg-[#629CF31A]">
+                        <div class="grid grid-cols-1  pb-50 lg:grid-rows-3 h-40 mt-6 bg-[#629CF31A]">
                             <img class="pt-8 pl-8" src="./Images/location.png" alt="">
                             <p class="text-[15px] lg:pl-8 pt-6 w-72" >Location <br>152/1 Mohakhali Wireless Gate </p>
                             
@@ -436,31 +441,38 @@
                         
                     </div>
                   <!-- form --> 
-                  <div class="container grid grid-cols-1 lg:grid-cols-2 col-span-2">
-                   <div>
-                    <p>Your name</p>
-                    <input type="text" placeholder="Enter your full name">
-                   </div>
-                   <div>
-                    <p>Your Email</p>
-                    <input type="email" name="" id="" placeholder="Enter your email">
-                   </div>
-                   <div>
-                    <p>Subject</p>
-                    <input type="text" placeholder="Enter Your Subject">
-                   </div>
-                   <div>
-                    <p>Phoone Number</p>
-                    <input type="text/number">
-                   </div>
-                   <div class=" col-span-2">
-                    <p>Message</p>
-                    <textarea name="text" id="" cols="30" rows="10"></textarea>
-                   </div>
-                   <div>
-                    <button class="btn btn-error bg-red-500">Send Message</button>
-                   </div>
-                    
+                  <div>
+                    <form class="grid grid-cols-1 ml-3 px-12 pt-12 border-2" action="">
+                      <div class="flex gap-10 mb-6">
+                        <div>
+                          <label class="font-bold text-xl text-black" for="">Your Name</label> <br>
+                        <input class=" bg-[#13131808] lg:p-5  w-96 mt-3 rounded-xl " type="text" required placeholder="Enter Your Name ">
+                        </div>
+                        <div>
+                          <label class="font-bold text-xl text-black" for="">Your Email</label> <br>
+                        <input class="bg-[#13131808] lg:p-5  w-96 mt-3 rounded-xl" type="email" required placeholder="Enter your email">
+                        </div>
+
+                      </div>
+                      <div class="flex gap-10 mb-6">
+                        <div class="">
+                          <label class="lg: font-bold text-xl  text-black" for="">Subject</label> <br>
+                        <input class="bg-[#13131808] lg:p-5 w-96 mt-3 rounded-xl" type="text" required placeholder="Enter your subject">
+                        </div>
+                        <div>
+                          <label class="font-bold text-xl text-black" for="">Phone Number</label> <br>
+                        <input class="bg-[#13131808] lg:p-5  w-96 mt-3 rounded-xl" type="tel" name="tel" placeholder="Enter your phone number">
+                        </div>
+
+                      </div>
+                      <div>
+                        <label class="font-bold text-xl text-black" for="">Message</label> <br>
+                        <textarea class="bg-[#13131808] lg:p-5 w-[900px] mt-3 h-48" name="Message" id="" cols="500" rows="30" placeholder="Write your message"></textarea>
+                      </div>
+                      <div>
+                        <button class="text-xl font-bold text-white bg-[#FF4240] mt-6 mb-6 lg:w-[900px] py-3 rounded-xl cursor-pointer hover:bg-blue-400" type="button">Send Message</button>
+                      </div>
+                    </form>
                   </div>
                 </div>
 
